@@ -1,0 +1,17 @@
+# Large data files
+*.csv
+!data/sample/*.csv
+
+# Podman
+docker-compose.yml
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
